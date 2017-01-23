@@ -1,15 +1,17 @@
 //
-//  main.cpp
+//  Runner.cpp
 //  FirstCPlusPlus
 //
 //  Created by Odom, Tyler on 1/23/17.
 //  Copyright © 2017 Odom, Tyler. All rights reserved.
 //
 
-#include <iostream>
+#include "FirstController.h"
 
-int main() {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+int main()
+{
+    FirstController * app = new FirstController;
+    app->start();
+    
     return 0;
 }
