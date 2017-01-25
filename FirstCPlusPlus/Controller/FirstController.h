@@ -11,6 +11,8 @@
 
 class FirstController
 {
+private:
+    void specialOutput();
 public:
     void start();
     
