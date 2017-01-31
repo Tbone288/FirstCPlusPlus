@@ -13,8 +13,13 @@ class FirstController
 {
 private:
     void specialOutput();
+    void useNumbers(int someNumber);
+    int impactNumber();
+    void usePointerToChange(int * somePointer);
+    void pointerJr(int * anotherPointer);
 public:
     void start();
+ 
     
 };
 #endif /* FirstController_h */
