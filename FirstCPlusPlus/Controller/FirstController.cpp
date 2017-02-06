@@ -54,7 +54,7 @@ void FirstController :: start()
     afternoonTimer.finishTimer();
     afternoonTimer.displayTimerInformaion();
     
-    
+    //arrays!!!
     int firstsarray [3] = {1, 2, 3};
     
     double anotheArray [2] = {5, 10};
