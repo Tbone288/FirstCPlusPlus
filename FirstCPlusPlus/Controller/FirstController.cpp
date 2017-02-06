@@ -8,6 +8,7 @@
 
 #include <iostream>
 #include "FirstController.h"
+#include "../Model/Timer.hpp"
 
 using namespace std;
 
@@ -24,6 +25,9 @@ void FirstController:: pointerJr(int *anotherPointer)
 
 void FirstController :: start()
 {
+    Timer afternoonTimer;
+    afternoonTimer.startTimer();
+    
     cout << "words here please :D" << endl;
     //this ->specialOutput();
     int myNumber = 9;
@@ -42,7 +46,18 @@ void FirstController :: start()
     usePointerToChange(numberPointer);
     cout << "See how the number has been changed: " << myNumber << endl;
     
-   
+    int derpy;
+    cin >> derpy;
+    
+    cout << derpy << endl;
+    
+    afternoonTimer.finishTimer();
+    afternoonTimer.displayTimerInformaion();
+    
+    
+    int firstsarray [3] = {1, 2, 3};
+    
+    double anotheArray [2] = {5, 10};
     
     
 }
